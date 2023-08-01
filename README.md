@@ -1,1 +1,1 @@
-I have inspired by Marc Blanchet in IETF 117 Hackathon. Marc founded the Viagénie in 1996 that consults in IP network field. He is a nice old man who still works on code. I am too embarrassed that I did NOT write any code since 2012.
+I have inspired by Marc Blanchet in IETF 117 Hackathon. Marc founded the Viagénie in 1996 that consults in IP network field. He is a nice old man who still works on code of QUIC in space. I am too embarrassed that I did NOT write any code since 2012.
