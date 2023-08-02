@@ -1,7 +1,16 @@
+术语
 
 
+缩写
 DetNet Deterministic Networking 确定性网络
 PCE Path Computation Element 路径计算单元
 RSVP Resource Reservation Protocol 资源预留协议
+TE Traffic Engineering 流量工程
 CSPF Constrained Shortest Path First 约束最短路径优先
+PREOF Packet Replication, Elimination, and Ordering Functions 包复制消除排队功能
 
+
+参考资料：
+RFC 8578 Deterministic Networking Use Cases
+RFC 8557 Deterministic Networking Problem Statement
+RFC 8655 Deterministic Networking Architecture
