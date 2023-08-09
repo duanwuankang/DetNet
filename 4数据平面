@@ -100,7 +100,72 @@ https://datatracker.ietf.org/doc/draft-joung-detnet-stateless-fair-queuing/
 文档首先回顾了DetNet技术的基本特点和应用场景，以及无状态队列和公平队列在流量调度和管理中的作用和优势。接着，它详细描述了DetNet无状态公平队列的设计原理和实现方式。该机制通过引入新的调度算法和机制，实现对DetNet网络中的流量公平调度和管理，降低延迟和提高可靠性。
 文档进一步分析了DetNet无状态公平队列机制的优点和创新点。它指出，该机制可以实现更灵活、更可靠的流量调度和管理，支持不同的服务质量要求和传输特性。与此同时，它还具有简单、易于部署和维护的特点，为DetNet网络中的实时通信提供了更多的选择和可能性。
 
+https://datatracker.ietf.org/doc/draft-wang-detnet-tsn-over-srv6/
+该文档旨在研究和探讨基于SRv6（Segment Routing over IPv6）的DetNet（Deterministic Networking）和TSN（Time-Sensitive Networking）的互操作性实现方式。
+文档首先介绍了DetNet和TSN技术的基本原理和应用场景，以及SRv6技术在网络编程和路径控制中的作用和优势。接着，文档详细讨论了基于SRv6的DetNet和TSN互操作性的实现方式。该机制通过引入新的机制和协议，实现DetNet和TSN之间的互操作性，提供可靠、低延迟的实时通信服务。
+文档进一步分析了基于SRv6的DetNet和TSN互操作性研究的优点和创新点。它指出，该机制可以实现更灵活、更可靠的DetNet和TSN互操作性，降低实时通信的延迟和提高可靠性。与此同时，它还具有基于SRv6的简单、灵活和高效特点，为实现实时通信提供了更多的选择和可能性。
 
+https://datatracker.ietf.org/doc/draft-peng-detnet-packet-timeslot-mechanism/
+该文档旨在提出一种DetNet（Deterministic Networking）数据包时隙机制，以实现对实时通信数据流的时延、时隙和带宽的精确控制，提高DetNet网络中实时通信的延迟和可靠性。
+文档首先回顾了DetNet技术的基本特点和应用场景，以及数据包时隙机制在网络中的作用和优势。接着，它详细描述了DetNet数据包时隙机制的设计原理和实现方式。该机制通过引入新的时隙标识、时隙映射和时隙调度机制，实现对DetNet网络中的实时通信数据流的时延、时隙和带宽的精确控制。
+文档进一步分析了DetNet数据包时隙机制的优点和创新点。它指出，该机制可以提供更精确、更可靠的数据流时延、时隙和带宽控制，适应DetNet网络中实时通信的精准要求和高度可靠性要求。与此同时，它还能够更好地利用网络资源，提供更灵活和精确的流量调度和管理。
+
+https://datatracker.ietf.org/doc/draft-xiong-detnet-enhanced-detnet-gap-analysis/
+该文档旨在对DetNet（Deterministic Networking）技术在实时通信中的应用进行差距分析，并提出Enhanced DetNet（增强型DetNet）的解决方案，以满足实时通信中更高的服务质量要求。
+文档首先回顾了DetNet技术的基本特点和应用场景，并介绍了DetNet在实时通信中的应用和挑战。接着，文档对DetNet技术中的差距进行分析，包括时钟同步、性能监测、多路径等问题。同时，为了解决这些问题，文档提出了Enhanced DetNet的解决方案，包括引入高精度时钟同步机制、增强性能监测能力、提供多路径和拥塞控制机制等。
+文档进一步分析了Enhanced DetNet的优点和创新点。它指出，Enhanced DetNet可以提供更高的服务质量、更可靠的实时通信服务，同时还可以支持更广泛、更复杂的实时通信应用场景。此外，该方案还具有可扩展性和灵活性，为实时通信中更高的服务质量要求提供了更多的选择和可能性。
+
+https://datatracker.ietf.org/doc/draft-peng-detnet-deadline-based-forwarding/
+该文档针对DetNet（Deterministic Networking）网络中实时通信的低延迟和高可靠性要求，提出一种基于截止日期的转发机制，以满足不同传输类型的服务质量需求。
+文档首先回顾了DetNet技术的基本特点和应用场景，以及实时通信中的截止日期概念和作用。接着，文档详细描述了基于截止日期的DetNet转发机制的设计原理和实现方式。该机制通过引入截止日期标记和截止日期跟踪机制，实现对实时通信数据流的时延、时隙和带宽的精确控制。
+文档进一步分析了基于截止日期的DetNet转发机制的优点和创新点。它指出，该机制可以为不同传输类型的数据流提供更可靠、更精准的转发调度和管理，降低延迟，提高可靠性。同时，它还能够更好地支持DetNet网络中不同服务质量等级的传输要求，提供更具有灵活性和可扩展性的流量调度和管理方式。
+
+https://datatracker.ietf.org/doc/draft-eckert-detnet-tcqf/
+该文档提出了一种基于时间的循环队列机制（TCQF），以实现在DetNet（Deterministic Networking）网络中处理实时通信数据流的低延迟和高可靠性要求。
+文档首先回顾了DetNet技术的基本特点和应用场景，以及在实时通信情况下低延迟和高可靠性的要求。接着，文档详细介绍了基于时间的循环队列机制的设计原理和实现方式。该机制通过引入时间窗口和循环队列的机制，实现对DetNet网络中实时通信数据流的低延迟和高可靠性要求。
+文档进一步分析了基于时间的循环队列机制在DetNet网络中的应用和优点。它指出，该机制可以有效地降低网络延迟和提高数据流的可靠性，同时还可提高网络资源的利用率以满足不同应用场景的需求。此外，该机制的实现相对简单，使得其易于应用于实际网络中。
+
+https://datatracker.ietf.org/doc/draft-eckert-detnet-glbf/
+该文档提出了一种通用负载平衡框架（GLBF），以实现在DetNet（Deterministic Networking）网络中处理实时通信数据流的负载平衡。
+文档首先回顾了DetNet技术的基本特点和应用场景，以及在实时通信情况下负载平衡的要求。接着，文档详细介绍了通用负载平衡框架的设计原理和实现方式。该框架采用链路预测和基于时间的循环队列的机制，实现对DetNet网络中实时通信数据流的负载平衡。
+文档进一步分析了通用负载平衡框架在DetNet网络中的应用和优点。它指出，该框架能够有效地平衡网络负载，提高网络资源的利用率，提高数据流的可靠性。同时，该框架还可以适应各种实时通信数据流的要求，提供更灵活、更高效的负载平衡方案。
+
+https://datatracker.ietf.org/doc/draft-eckert-detnet-flow-interleaving/
+该文档介绍了一种基于数据流交错技术的解决方案，以实现在DetNet（Deterministic Networking）网络中对实时通信数据流的时延和带宽的精确控制。
+文档首先回顾了DetNet技术的基本特点和应用场景，以及实时通信中对时延和带宽的要求。接着，文档详细介绍了数据流交错技术的原理和实现方式。该技术通过交错多个不同数据流的数据包，实现对实时通信数据流的时延和带宽的精确控制。
+文档进一步分析了数据流交错技术的优点和创新点。它指出，该技术可以提供更灵活、更准确的数据流时延和带宽控制，适应DetNet网络中实时通信的精准要求和高度可靠性要求。同时，它还可以更好地利用网络资源，提供更灵活和精确的流量调度和管理
+
+https://datatracker.ietf.org/doc/draft-chen-detnet-sr-based-bounded-latency/
+该文档提出了一种基于SR（Segment Routing）的DetNet（Deterministic Networking）有限时延技术，以实现在DetNet网络中处理实时通信数据流的低延迟和高可靠性要求。
+文档首先回顾了DetNet技术的基本特点和应用场景，以及实时通信数据流有限时延的要求。接着，文档详细介绍了基于SR的DetNet有限时延技术的设计原理和实现方式。该技术在SR路由协议的基础上引入了时延约束，并采用多路径技术实现对实时通信数据流的低延迟和高可靠性要求。
+文档进一步分析了基于SR的DetNet有限时延技术的优点和创新点。它指出，该技术可以为不同类型的实时通信数据流提供精准的时延和可靠性控制，同时还可以提高网络资源的利用率和可扩展性。此外，该技术充分利用了SR的多路径和灵活性，为实现更广泛、更复杂的实时通信需求提供了支持。
+
+https://datatracker.ietf.org/doc/draft-jlg-detnet-5gs/
+该文档探讨了DetNet（Deterministic Networking）技术与5G技术的集成，以满足未来网络中对实时通信的低延迟、高可靠性和大带宽需求。
+文档首先介绍了5G技术和DetNet技术的基本特点和应用场景，并指出两者的集成能够为未来网络中对实时通信的要求提供更加可靠、强大的支持。接着，文档详细介绍了DetNet和5G技术集成的四种方式，即：DetNet覆盖5G网络、5G支持DetNet、DetNet和5G并行部署、以及在DetNet上构建5G功能。
+文档进一步分析了DetNet与5G集成的优点和挑战。它指出，DetNet与5G集成能够为实时通信提供更加精准、高效的传输服务，支持各种实时应用的要求。同时，该集成还能够为未来网络提供更加智能、可扩展的架构和管理方式，更好地支持异构网络设备的互操作性。
+
+https://datatracker.ietf.org/doc/draft-zhang-pce-enhanced-detnet/
+该文档提出了一种基于PCE（Path Computation Element）的增强型DetNet（Deterministic Networking）解决方案，以满足在DetNet网络中实现实时通信的低延迟、高可靠性和灵活性要求。
+文档首先回顾了DetNet技术的基本特点和应用场景，以及在实时通信情况下低延迟、高可靠性和灵活性的要求。接着，文档详细介绍了PCE的原理和实现方式，并提出了基于PCE的增强型DetNet解决方案。该解决方案引入了PCE计算路径和流量调度，通过灵活的流量控制和路径计算实现对实时通信数据流的低延迟和高可靠性的需求。
+文档进一步分析了增强型DetNet中的PCE的优点和创新点。它指出，该解决方案可以提供更加灵活、高效的路径计算和流量调度，满足DetNet网络中实时通信的灵活性要求。同时，它还可以支持多种复杂的网络拓扑结构，提高网络资源的利用效率，满足不同应用场景的需求。
+
+https://datatracker.ietf.org/doc/draft-km-detnet-for-ocn/
+讨了如何利用DetNet（Deterministic Networking）技术支持工业控制与运营应用。
+文档首先介绍了工业控制与运营应用的特点和需求，对实时、可靠、安全的数据传输和交换提出了要求。接着，文档详细介绍了DetNet技术的基本特点和主要实现手段，探讨了如何利用DetNet实现工业应用中的时延、可靠性等关键要素，并为此提出了多种具体应用场景。
+文档深入分析了工业控制与运营应用中的网络架构、数据流量、协议栈等问题，并针对不同应用需求给出了相应的解决方案。它提出了一种基于DetNet的实现方案，即向现有网络添加特定的DetNet设备，将不同数据传输流量使用不同的网络路径和服务流，确保其实时可靠性与高效性。
+文档最后指出，DetNet技术具有较大的潜力和优势，可以为工业控制与运营应用提供更加稳定、高效、精准的数据传输和处理，有望为数字化工业的发展和智能制造的实现提供有力的技术支持。
+
+https://datatracker.ietf.org/doc/draft-xiong-detnet-teas-te-extensions/
+提出了在DetNet（Deterministic Networking）网络中扩展TE与TEAS技术，以满足不同应用场景的需求。
+文档首先回顾了DetNet技术的基本特点和应用场景，并指出TE和TEAS技术在数据平面和控制平面方面的应用和意义。接着，文档详细介绍了在DetNet中扩展TE与TEAS的方法和实现，包括资源预留、路径计算、应用编码、网络管理等方面。
+文档进一步分析了在DetNet网络中扩展TE与TEAS的优点和应用场景，包括对实时或低时延的数据流进行差错校验、分组级别的服务质量，以及对多种应用和服务类型之间的分支和分配的支持。
+
+https://datatracker.ietf.org/doc/draft-xiong-detnet-data-fields-edp/
+提出了在DetNet（Deterministic Networking）中对封包进行扩展数据字段处理的方法和技术。
+文档首先介绍了DetNet技术的基本原理和应用场景，并指出了封包级处理在DetNet网络中实现灵活性和实时性要求的重要性。接着，文档详细讨论了对DetNet封包进行扩展数据字段处理的技术需求和挑战，包括封包标记、流量控制、路径计算等方面。
+文档进一步提出了对DetNet封包进行扩展数据字段处理的方案和方法。它介绍了扩展数据字段的格式和含义，并描述了处理扩展数据字段的流程和算法。此外，文档还讨论了在DetNet网络中实现扩展数据字段处理的实现和部署考虑。
+文档最后分析了对DetNet封包进行扩展数据字段处理的优势和应用场景。它指出，通过扩展数据字段处理，DetNet网络可以支持更灵活、精确的流量控制和路径计算，满足实时通信中的低延迟和高可靠性要求，适用于各种实时应用领域。
 
 https://datatracker.ietf.org/doc/draft-eckert-detnet-criteria-assessment/
 该文档旨在提供一套评估标准和准则，以帮助评估和验证DetNet（Deterministic Networking）技术的可行性和适用性。
