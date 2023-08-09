@@ -24,6 +24,84 @@ https://datatracker.ietf.org/doc/draft-zhang-idr-sr-policy-enhanced-detnet/
 文档首先回顾了SR技术的基本特点和应用场景，以及DetNet在SR体系结构中的角色和作用。接着，它详细描述了增强DetNet SR策略的设计原理和机制。该策略通过在SR头部引入新的字段，以扩展SR功能和支持DetNet服务质量保证。
 文档进一步分析了增强DetNet SR策略的优势和创新点。它指出，该策略可以实现更细粒度的流量调度和管理，支持不同的服务质量要求和传输特性。同时，它还提供了更灵活的节点选择和路径计算，以应对DetNet网络中存在的不确定性和紧迫性。
 
+https://datatracker.ietf.org/doc/draft-xiong-detnet-spring-srh-extensions/
+该文档旨在提出一种基于Spring协议的SRH（Segment Routing Header）扩展，以支持在DetNet（Deterministic Networking）网络中的实时流量调度和管理。
+文档首先回顾了DetNet技术的基本特点和应用场景，以及Spring协议和SR技术的基本概念和原理。接着，它提出了一些增强DetNet SRH扩展的方案和机制，以优化DetNet服务质量和网络性能。
+文档详细描述了DetNet SRH扩展的设计原理和实现方式。它通过引入新的扩展域和SRH选项，以实现对DetNet服务质量和网络拓扑的更精细控制和调度。同时，它还提供了一些新的SRH机制和算法，以支持不同的流量调度和路径优化需求。
+此外，文档还讨论了DetNet SRH扩展的配置和管理，以及与现有技术的集成和演化。它介绍了DetNet SRH扩展的实现方案和测试结果，以验证其性能和可行性。
+
+https://datatracker.ietf.org/doc/draft-xiong-idr-detnet-flow-mapping/
+该文档旨在提出一种基于BGP（Border Gateway Protocol）的IDR（Inter-Domain Routing）扩展，用于支持DetNet（Deterministic Networking）流映射和服务质量保证。
+文档首先回顾了DetNet技术的基本特点和应用场景，以及BGP和IDR技术的基本概念和原理。接着，它详细描述了DetNet流映射的设计原理和机制。该映射通过BGP扩展和属性定义，将DetNet流映射到网络拓扑和资源上，从而实现DetNet服务质量保证。
+文档进一步分析了DetNet流映射的优点和创新点。它指出，该映射可以实现DetNet服务的灵活部署和管理，同时确保服务质量和传输可靠性。它可以避免传统网络中的拥塞和延迟问题，并提供更好的流量控制和路径优化方案。
+
+https://datatracker.ietf.org/doc/draft-zhang-sr-policy-enhanced-detnet/
+该文档旨在提出一种增强的SR（Segment Routing）策略，以支持在DetNet（Deterministic Networking）网络中实现更灵活、更可靠的流量调度和管理。
+文档首先介绍了DetNet技术的基本特点和应用场景，以及SR技术在DetNet网络中的作用和优势。接着，它详细描述了增强DetNet SR策略的设计原理和实现方式。该策略可以通过新增SR段、SR路径标识符等信息，以扩展SR功能，优化流量调度和路径计算。
+文档进一步讨论了增强DetNet SR策略的优势和创新点。它指出，该策略可以实现更细粒度的流量调度和管理，支持不同服务质量要求和传输特性。与此同时，它还提供了更灵活的节点选择和路径计算，以应对DetNet网络中存在的不确定性和紧迫性。
+
+https://datatracker.ietf.org/doc/draft-geng-spring-sr-enhanced-detnet/
+该文档旨在提出一种基于SR（Segment Routing）技术的DetNet（Deterministic Networking）增强策略，以实现更灵活、可靠的流量调度和管理。
+文档首先回顾了DetNet技术的基本概念和应用场景，以及SR技术在DetNet网络中的应用和作用。接着，它详细描述了增强DetNet SR策略的设计原理和实现方式。该策略通过引入新的SR扩展和机制，优化流量调度和路径计算，实现DetNet服务质量保证。
+文档进一步分析了增强DetNet SR策略的优点和创新点。它指出，该策略可以实现更细粒度的流量调度和管理，支持不同的服务质量要求和传输特性。与此同时，它还提供了更灵活的节点选择和路径计算，以应对DetNet网络中存在的不确定性和紧迫性。
+
+https://datatracker.ietf.org/doc/draft-geng-lsr-isis-te-extension-enhanced-detnet/
+该文档旨在提出一种基于ISIS-TE（Intermediate System to Intermediate System - Traffic Engineering）技术的DetNet增强方案，以实现更灵活、可靠的流量调度和管理。
+文档首先回顾了DetNet技术在实时通信中的重要性和应用场景，以及ISIS-TE技术在网络拓扑和流量调度中的作用和优势。接着，它详细描述了增强的DetNet ISIS-TE扩展的设计原理和实现方式。该扩展通过引入新的ISIS-TE属性和机制，实现对DetNet服务质量和路径计算的更精细控制和调度。
+文档进一步分析了增强DetNet ISIS-TE扩展的优点和创新点。它指出，该扩展可以实现更灵活、更可靠的流量调度和管理，支持不同的服务质量要求和传输特性。与此同时，它还提供了更准确的路径计算和流量控制，以适应DetNet网络中的不同需求和应用场景。
+
+https://datatracker.ietf.org/doc/draft-geng-idr-bgp-ls-enhanced-detnet/
+该文档旨在提出一种基于BGP-LS（Border Gateway Protocol - Link State）技术的DetNet（Deterministic Networking）增强方案，以实现更灵活、可靠的流量调度和管理。
+文档首先回顾了DetNet技术的基本特点和应用场景，以及BGP-LS技术在网络拓扑和路径计算中的作用和优势。接着，它详细描述了增强DetNet BGP-LS的IDR扩展的设计原理和实现方式。该扩展通过引入新的BGP-LS属性和机制，优化DetNet服务质量保证和流量调度。
+文档进一步分析了增强DetNet BGP-LS的IDR扩展的优点和创新点。它指出，该扩展可以实现更灵活、更可靠的流量调度和管理，支持不同的服务质量要求和传输特性。与此同时，它还提供了更精确的网络拓扑和路径计算，以应对DetNet网络中的不确定性和紧迫性需求。
+
+https://datatracker.ietf.org/doc/draft-geng-detnet-dataplane-enchancment-encap/
+该文档旨在提出一种DetNet（Deterministic Networking）数据平面增强的封装方案，以实现更灵活、可靠的流量调度和管理。
+文档首先回顾了DetNet技术的应用场景和要求，以及数据平面封装方案的基本概念和要求。接着，它详细描述了DetNet数据平面增强的封装方案的设计原理和实现方式。该方案通过引入新的封装协议和机制，实现DetNet服务质量保证和流量调度。
+文档进一步分析了DetNet数据平面增强封装方案的优点和创新点。它指出，该方案可以实现更灵活、更可靠的流量调度和管理，支持不同的服务质量要求和传输特性。与此同时，它还提供了更高效的封装和解封装机制，以应对DetNet网络中的高速数据流量需求。
+
+https://datatracker.ietf.org/doc/draft-peng-detnet-traffic-shaping-solutions/
+该文档旨在提出一种DetNet（Deterministic Networking）流量整形方案，以实现更灵活、可靠的流量调度和管理。
+文档首先回顾了DetNet技术的基本特点和应用场景，以及流量整形技术在网络中的作用和优势。接着，它详细描述了DetNet流量整形方案的设计原理和实现方式。该方案通过引入新的整形算法和机制，提高DetNet服务质量和流量调度的精度和效率。
+文档进一步分析了DetNet流量整形方案的优点和创新点。它指出，该方案可以实现更灵活、更可靠的流量调度和管理，支持不同的服务质量要求和传输特性。与此同时，它还提供了更高效的流量整形算法和机制，以适应DetNet网络中的高速数据传输和流量控制需求。
+
+https://datatracker.ietf.org/doc/draft-joung-detnet-asynch-detnet-framework/
+该文档旨在提出一种异步DetNet（Deterministic Networking）框架，以支持实时通信中的异步流量和传输需求。
+文档首先回顾了DetNet技术的基本概念和应用场景，以及异步通信在实时应用中的重要性。接着，它详细描述了异步DetNet框架的设计原理和实现方式。该框架通过引入新的协议和机制，提供对异步流量的精确定时和调度。
+文档进一步分析了异步DetNet框架的优点和创新点。它指出，该框架可以支持异步流量的低延迟、高可靠性和高带宽需求，适用于诸如工业自动化、机器人控制等实时应用场景。与此同时，该框架还提供了更灵活的流量调度和管理机制，以应对多样化的异步通信需求。
+
+https://datatracker.ietf.org/doc/draft-sx-detnet-mpls-queue/
+该文档旨在提出一种DetNet（Deterministic Networking）MPLS（Multiprotocol Label Switching）队列管理机制，以实现更精细的流量调度和管理。
+文档首先回顾了DetNet技术的基本特点和应用场景，以及MPLS技术在网络中的作用和优势。接着，它详细描述了DetNet MPLS队列管理机制的设计原理和实现方式。该机制通过引入新的队列管理算法和机制，提高DetNet服务质量和流量调度的精度和效率。
+文档进一步分析了DetNet MPLS队列管理机制的优点和创新点。它指出，该机制可以实现更灵活、更可靠的流量调度和管理，支持不同的服务质量要求和传输特性。与此同时，它还提供了更高效的队列管理算法和机制，以应对DetNet网络中的高速数据传输和流量控制需求。
+
+https://datatracker.ietf.org/doc/draft-aft-detnet-bound-delay-queue/
+该文档旨在引入一种DetNet（Deterministic Networking）边界延迟队列机制，以提供更精确和可靠的服务质量保障。
+文档首先介绍了DetNet技术的基本原则和应用场景，以及边界延迟队列在实时通信中的重要性。接着，文档详细阐述了DetNet边界延迟队列的设计原理和实现方式。该机制通过引入新的队列调度算法和机制，实现对实时通信流的可靠和精确的延迟控制。
+文档进一步分析了DetNet边界延迟队列的优点和创新点。它指出，该机制能够提供更可靠、可预测的服务质量保障，使DetNet网络具备适应实时通信需求的能力。同时，该机制还能够更好地应对网络不确定性因素，提供更灵活和精确的流量调度和管理。
+
+https://datatracker.ietf.org/doc/draft-zhu-detnet-cycle-mapping-learning/
+该文档旨在提出一种DetNet（Deterministic Networking）映射学习机制，以提高DetNet网络中的流量调度和管理效率。
+文档首先回顾了DetNet技术的基本特点和应用场景，以及映射学习在网络中的作用和优势。接着，它详细描述了DetNet映射学习机制的设计原理和实现方式。该机制通过利用机器学习算法，自动学习DetNet网络中的流量映射关系，提高流量调度和管理的精度和效率。
+文档进一步分析了DetNet映射学习机制的优点和创新点。它指出，该机制可以实现更灵活、更可靠的流量调度和管理，支持不同的服务质量要求和传输特性。与此同时，它还提供了更高效的学习和更新机制，以更好地适应DetNet网络中流量映射关系的变化。
+
+https://datatracker.ietf.org/doc/draft-xiong-pce-detnet-bounded-latency/
+该文档旨在提出一种使用PCE（Path Computation Element）计算DetNet（Deterministic Networking）网络中有界延迟路径的机制。
+文档首先回顾了DetNet技术的基本概念和应用场景，以及路径计算在实现DetNet中的重要性。接着，文档详细阐述了使用PCE计算DetNet有界延迟路径的设计原理和实现方式。该机制通过引入新的算法和机制，提高路径计算的精度和效率，从而满足DetNet实时通信中的有界延迟要求。
+文档进一步分析了使用PCE计算DetNet有界延迟路径的优点和创新点。它指出，该机制可以提供更可靠、可预测的路径计算及服务质量保障，适应DetNet网络中实时通信的高可靠性、低延迟和高带宽需求。同时，该机制还能够更好地利用网络资源，提供更灵活和精确的流量调度和管理。
+
+https://datatracker.ietf.org/doc/draft-hp-detnet-tsn-queuing-mechanisms-evaluation/
+该文档旨在通过对DetNet（Deterministic Networking）和TSN（Time-Sensitive Networking）网络中排队机制的比较和评估，探讨实现实时通信中的低延迟和高可靠性的最佳方式。
+文档首先对DetNet和TSN技术进行了简要回顾，以及它们在实时通信中的应用和特点。接着，文档详细比较了两种技术中常见的排队机制，包括FIFO（First In First Out）、Round Robin和Credit-Based Shaper。通过对不同机制的特点、优缺点的比较和分析，文档探讨了在实现实时通信中的低延迟和高可靠性方面，各种排队机制的适用性和局限性。
+文档进一步分析了DetNet和TSN排队机制评估的结论和启示。它指出，影响排队机制效果的因素非常复杂，需要根据具体应用场景和要求进行选择和设计。相较于TSN，DetNet的时间和带宽精确控制更为灵活和高效，但也需要更复杂的机制和算法来实现。
+
+https://datatracker.ietf.org/doc/draft-joung-detnet-stateless-fair-queuing/
+该文档旨在提出一种无状态公平队列机制，以实现更精细的流量调度和管理，并支持DetNet（Deterministic Networking）网络中实时通信的低延迟和高可靠性。
+文档首先回顾了DetNet技术的基本特点和应用场景，以及无状态队列和公平队列在流量调度和管理中的作用和优势。接着，它详细描述了DetNet无状态公平队列的设计原理和实现方式。该机制通过引入新的调度算法和机制，实现对DetNet网络中的流量公平调度和管理，降低延迟和提高可靠性。
+文档进一步分析了DetNet无状态公平队列机制的优点和创新点。它指出，该机制可以实现更灵活、更可靠的流量调度和管理，支持不同的服务质量要求和传输特性。与此同时，它还具有简单、易于部署和维护的特点，为DetNet网络中的实时通信提供了更多的选择和可能性。
+
+
+
 https://datatracker.ietf.org/doc/draft-eckert-detnet-criteria-assessment/
 该文档旨在提供一套评估标准和准则，以帮助评估和验证DetNet（Deterministic Networking）技术的可行性和适用性。
 文档首先回顾了DetNet技术的目标和基本特征，以及DetNet工作组的标准化工作和进展。接着，它提出了一些评估DetNet技术的关键准则和指标。这些准则包括实时通信的要求、网络拓扑的复杂性、流量工程和调度机制、网络管理和监控的支持等。
