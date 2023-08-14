@@ -6,6 +6,8 @@ DetNet Deterministic Networking 确定性网络
 PCE Path Computation Element 路径计算单元
 RSVP Resource Reservation Protocol 资源预留协议
 TE Traffic Engineering 流量工程
+CQF Cyclic Queuing and Forwarding 循环排队和转发
+TCQF Tagged Cyclic Queuing and Forwarding 带标签的循环排队和转发
 CSPF Constrained Shortest Path First 约束最短路径优先
 PREOF Packet Replication, Elimination, and Ordering Functions 包复制消除排队功能
 
