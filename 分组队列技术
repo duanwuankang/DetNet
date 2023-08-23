@@ -19,8 +19,12 @@ TSN标准的附录中，提供了周期排队转发（CQF，Cyclic Queuing and F
 帧抢占（Frame Preemption）属于“降低时延”的技术。尤其对于低速率链路，一个低优先级正在发送的长报文，就能阻挡高优先级大几百微秒。帧抢占使得高优先级能够打断正在传输的低优先级报文，大大降低了高优先级的时延上界（假设一个高优先级倒霉蛋，每一跳都刚好被一个低优先级长报文挡住......帧抢占技术就是这个倒霉蛋的小确幸）。当然，帧抢占还可以配合TAS机制，降低保护带（Guard Band）对于带宽的消耗。
 
 TCQF
+Tagged Cyclic Queuing and Forwarding
+TCQF通过引入标签化、循环队列、通信计划和反事实计算等机制，对CQF进行了改进，以提供更高效、更准确的时序控制和流量调度。
 
 CSQF
+Cycle Specified Queuing and Forwarding
+相对于CQF，基于SR的有界延迟解决方案在时序精度、路径控制、扩展性和网络可靠性等方面都有改进。
 
 参考资料：
 中国信息通信研究院技术与标准研究所 确定性承载技术和评测体系研究报告(2023 年)
@@ -28,7 +32,12 @@ https://datatracker.ietf.org/doc/rfc9320/
 https://datatracker.ietf.org/doc/draft-hp-detnet-tsn-queuing-mechanisms-evaluation/
 https://datatracker.ietf.org/doc/draft-joung-detnet-stateless-fair-queuing/
 https://datatracker.ietf.org/doc/draft-eckert-detnet-tcqf/
+https://datatracker.ietf.org/doc/draft-chen-detnet-sr-based-bounded-latency/
 https://datatracker.ietf.org/doc/draft-peng-detnet-packet-timeslot-mechanism/
+https://datatracker.ietf.org/doc/draft-sx-mpls-detnet-bounded-latency/
+https://datatracker.ietf.org/doc/draft-eckert-detnet-glbf/
+https://datatracker.ietf.org/doc/draft-xiong-pce-detnet-bounded-latency/
+https://datatracker.ietf.org/doc/draft-peng-detnet-traffic-shaping-solutions/
 https://zhuanlan.zhihu.com/p/603477008
 frame preemption ([IEEE802.3br] and  [IEEE802.1Qbu])
 CBS ([IEEE802.1Qav])
