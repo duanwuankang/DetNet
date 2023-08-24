@@ -1,3 +1,37 @@
+问题和需求
+https://datatracker.ietf.org/doc/rfc8578/
+https://datatracker.ietf.org/doc/rfc8557/
+总体架构
+https://datatracker.ietf.org/doc/rfc8655/
+数据面
+https://datatracker.ietf.org/doc/rfc8938/
+https://datatracker.ietf.org/doc/rfc8939/
+https://datatracker.ietf.org/doc/rfc8964/
+https://datatracker.ietf.org/doc/rfc9025/
+https://datatracker.ietf.org/doc/rfc9037/
+https://datatracker.ietf.org/doc/rfc9024/
+https://datatracker.ietf.org/doc/rfc9023/
+https://datatracker.ietf.org/doc/rfc9056/
+控制面
+https://datatracker.ietf.org/doc/draft-ietf-detnet-controller-plane-framework/
+有界时延
+https://datatracker.ietf.org/doc/rfc9320/
+数据包排序
+https://datatracker.ietf.org/doc/draft-ietf-detnet-pof/
+https://datatracker.ietf.org/doc/draft-ietf-detnet-mpls-over-ip-preof/
+OAM
+https://datatracker.ietf.org/doc/rfc9016/
+https://datatracker.ietf.org/doc/draft-ietf-detnet-oam-framework/
+https://datatracker.ietf.org/doc/draft-ietf-detnet-ip-oam/
+https://datatracker.ietf.org/doc/draft-ietf-detnet-mpls-oam/
+YANG
+https://datatracker.ietf.org/doc/draft-ietf-detnet-yang/
+https://datatracker.ietf.org/doc/draft-ietf-detnet-topology-yang/
+安全
+https://datatracker.ietf.org/doc/rfc9055/
+大规模
+https://datatracker.ietf.org/doc/draft-ietf-detnet-scaling-requirements/
+
 
 https://datatracker.ietf.org/doc/draft-ietf-detnet-scaling-requirements/
 旨在确定DetNet（Deterministic Networking）技术在不同规模网络中的需求和挑战，以促进DetNet技术的推广和扩展。
