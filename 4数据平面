@@ -24,6 +24,18 @@
 
 
 
+                   .
+                   .
+     +-----------------------------+
+     |  DetNet Service sub-layer   | PW, UDP, GRE
+     +-----------------------------+
+     | DetNet Forwarding sub-layer | IPv6, IPv4, MPLS TE LSPs, MPLS SR
+     +-----------------------------+
+                   .
+                   .
+
+                 Figure 4: DetNet Adaptation to Data Plane
+
 
 数据平面架构
 https://datatracker.ietf.org/doc/rfc8938/
