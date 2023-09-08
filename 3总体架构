@@ -8,6 +8,22 @@
 3.2.3.  Explicit Routes
 3.2.2.  Service Protection
 
+
+         access-A                                     access-B
+              <----->    <-------- tunnel ---------->     <----->
+
+                 +---------+        ___  _        +---------+
+   End system    |  +----+ |       /   \/ \_      | +----+  | End system
+       "A" -------F1+    | |      /         \     | |    +F2----- "B"
+                 |  |    +========+ IP/MPLS +=======+    |  |
+                 |  |SI-1| |      \__  Net._/     | |SI-2|  |
+                 |  +----+ |         \____/       | +----+  |
+                 |PE1      |                      |      PE2|
+                 +---------+                      +---------+
+
+              Figure 8: DetNet Network General Reference Model
+
+
    DetNet                                                     DetNet
    End System                                                 End System
       _                                                             _
