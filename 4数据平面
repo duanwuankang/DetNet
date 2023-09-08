@@ -1,3 +1,30 @@
+
+数据平面的协议栈
+
+              |  packets going  |        ^  packets coming   ^
+              v down the stack  v        |   up the stack    |
+           +-----------------------+   +-----------------------+
+           |        Source         |   |      Destination      |
+           +-----------------------+   +-----------------------+
+           |   Service sub-layer:  |   |   Service sub-layer:  |
+           |   Packet sequencing   |   | Duplicate elimination |
+           |    Flow replication   |   |      Flow merging     |
+           |    Packet encoding    |   |    Packet decoding    |
+           +-----------------------+   +-----------------------+
+           | Forwarding sub-layer: |   | Forwarding sub-layer: |
+           |  Resource allocation  |   |  Resource allocation  |
+           |    Explicit routes    |   |    Explicit routes    |
+           +-----------------------+   +-----------------------+
+           |     Lower layers      |   |     Lower layers      |
+           +-----------------------+   +-----------------------+
+                       v                           ^
+                        \_________________________/
+
+                 Figure 1: DetNet Data Plane Protocol Stack
+
+
+
+
 数据平面架构
 https://datatracker.ietf.org/doc/rfc8938/
 
